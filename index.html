@@ -10,15 +10,38 @@
       <label for="shift">Shift (1-25):</label>
       <input type="number" id="shift" value="1" min="1" max="25" />
        
-      <label for="shift">Enter your secret message: </label>
+      <label for="plaintext">Enter your secret message: </label>
       <textarea
         id="plaintext"
         placeholder="Type your message here..."
       ></textarea>
+
+         <!-- Add a dropdown for cipher method -->
+      <label for="cipherMethod">Choose cipher method:</label>
+      <select id="cipherMethod">
+       <option value="caesar">Caesar Cipher</option>
+       <option value="reverse">Reverse Cipher</option>
+     </select>
+
+         <!-- Add action choice (Encrypt or Decrypt) -->
+      <label for="action">Action:</label>
+      <select id="action">
+       <option value="encrypt">Encrypt</option>
+       <option value="decrypt">Decrypt</option>
+     </select>
+
+         <!-- Submit Button -->
+     <button id="submitBtn">Submit</button>
+
+         <!-- Translated message output -->
       <h3>Translated message:</h3>
       <p id="output"></p>
+
       <script src="script.js"></script>
     </body>
   </head>
 </html>
+
+
+   
 
