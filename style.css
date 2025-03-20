@@ -1,64 +1,63 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #1A2835;
-    color: #AAB8C2;
-  }
-  
-  h2 {
-    color: #EFF2F7;
-    border-bottom: 2px solid #2C3E50;
-  }
-  
-  h3 {
-    border-bottom: 2px solid #2C3E50;
-    color: #EFF2F7;
-  }
-  
-  label {
-    display: block;
-    margin: 20px 0 0 20px;
-    font-weight: bold;
-  }
-  
-  #output {
-    margin: 20px;
-  }
-  
-  input, textarea, select {
-    box-sizing: border-box;
-    width: 85%;
-    margin: 0 20px;
-    padding: 10px;
-    font-size: 18px;
-    border: 1px solid #2C3E50;
-    border-radius: 5px;
-    background-color: #2C3E50;
-    color: #EFF2F7;
-  }
-  
-  input:focus, textarea:focus, select:focus {
-    border: 1px solid #3498DB;
-    outline: none;
-  }
-  
-  button {
-    padding: 10px 20px;
-    background-color: #3498DB;
-    color: #EFF2F7;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 18px;
-    margin: 20px 0;
-    width: 85%;
-    box-sizing: border-box;
-  }
-  
-  button:hover {
-    background-color: #2980B9;
-  }
-  
-  button:active {
-    background-color: #1A73B3;
-  }
-  
+  font-family: 'Arial', sans-serif;
+  background-color: #1A2835;
+  color: #AAB8C2;
+}
+
+h2 {
+  color: #EFF2F7;
+  border-bottom: 2px solid #2C3E50;
+}
+
+h3 {
+  border-bottom: 2px solid #2C3E50;
+  color: #EFF2F7;
+}
+
+label {
+  display: block;
+  margin: 20px 0 0 20px;
+  font-weight: bold;
+}
+
+#output {
+  margin: 20px;
+}
+
+input, textarea, select {
+  box-sizing: border-box;
+  width: 85%;
+  margin: 0 20px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #2C3E50;
+  border-radius: 5px;
+  background-color: #2C3E50;
+  color: #EFF2F7;
+}
+
+input:focus, textarea:focus, select:focus {
+  border: 1px solid #3498DB;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #3498DB;
+  color: #EFF2F7;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 20px 0;
+  width: 85%;
+  box-sizing: border-box;
+}
+
+button:hover {
+  background-color: #2980B9;
+}
+
+button:active {
+  background-color: #1A73B3;
+}
