@@ -3,7 +3,7 @@
 ## Overview:
 Z's Codebreaker is my version of a Caesear Cipher Translator. This app tool allows you to encrypt and decrypt text using various ciphers such as Caesar Cipher and Reverse Cipher.
 
-## Example Usage:
+## Demo Usage:
 ![exampleUsageCodebreaker](https://github.com/alecia-taylor/SBA316/blob/main/ExampleUseCodebreaker.png)
 ## Features:
 - Caesar Cipher: Encrypt and decrypt text by shifting letters.
