@@ -5,6 +5,7 @@ Z's Codebreaker is my version of a Caesear Cipher Translator. This app tool allo
 
 ## Demo Usage:
 https://alecia-taylor.github.io/ZsCodeBreaker/
+
 ![exampleUsageCodebreaker](https://github.com/alecia-taylor/SBA316/blob/main/ExampleUseCodebreaker.png)
 ## Features:
 - Caesar Cipher: Encrypt and decrypt text by shifting letters.
